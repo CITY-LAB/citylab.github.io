@@ -1,0 +1,112 @@
+﻿html{
+text-align:center;
+}
+body {
+  font-family: 'Lato', Verdana;
+  font-size: 100%;
+  background: #fff;
+}
+.wrap
+{
+  margin: 0 auto;
+  width: 70%;  /* отступы относительно окна браузера */
+}
+.header{
+  padding: 1.3em 0em; /* поля вокруг текста */
+}
+.logo{
+  float: left; /* обтекание логотипа */
+margin-left:190px;
+}
+.logo a {
+  display: block; /* переопределение в блочный  */
+}
+.nav {
+  float: right;   /* обтекание логотипа */
+  margin-top: 0.82em;
+}
+.nav > ul > li {
+  display:inline-block;  /* переопределение в строчно-блочный  */
+}
+.nav > ul > li.active a{
+  background: #d0a5a5;
+  color: white;
+}
+.nav > ul > li > a {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  color: #444;
+  -webkit-transition: 0.9s; /* плавный переход  */
+  -moz-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+.nav > ul > li > a:hover {
+  color: #1E90FF;
+  background: #ADD8E6;
+}
+body{
+background:  url('fon.png') no-repeat;
+background-size: 100% 100%;
+}
+.ramka{
+background: #AFEEEE; /* Цвет фона */
+    color: black; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 12px; /* Уголки */
+    width:50%;
+margin-top: 20%;
+height:100% auto;
+opacity: 0.9;
+}
+.sell{
+margin:10%;
+
+scroll="no";
+}
+* {box-sizing: border-box;}
+.product-item {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #F5F5F5;
+  background: white;
+  font-family: "Open Sans";
+  transition: .3s ease-in;
+}
+.product-item:hover {border-bottom: 2px solid #fc5a5a;}
+.product-item img {
+  display: block;
+  width: 100%;
+}
+.product-list {
+  background: #fafafa;
+  padding: 15px 0;
+}
+.product-list h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+.price {
+  font-size: 16px;
+  color: #fc5a5a;
+  display: block;
+  margin-bottom: 12px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 12px;
+  background: #cccccc;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 28px;
+  transition: .3s ease-in;
+}
+.product-item:hover .button {background: #fc5a5a;}

@@ -111,3 +111,6 @@ scroll="no";
   transition: .3s ease-in;
 }
 .product-item:hover .button {background: #fc5a5a;}
+.video{
+ margin:20px; 
+}
